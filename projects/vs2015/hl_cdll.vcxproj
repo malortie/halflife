@@ -62,7 +62,7 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\..\dlls;..\..\cl_dll;..\..\public;..\..\common;..\..\pm_shared;..\..\engine;..\..\utils\vgui\include;..\..\game_shared;..\..\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <DisableSpecificWarnings>4005;4018;4091;4346;4838;4996;</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4005;4018;4091;4346;4474;4477;4838;4996;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -92,7 +92,7 @@ copy "$(TargetDir)\$(TargetName).pdb" "..\..\..\game\mod_hl\cl_dlls\$(TargetName
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\..\dlls;..\..\cl_dll;..\..\public;..\..\common;..\..\pm_shared;..\..\engine;..\..\utils\vgui\include;..\..\game_shared;..\..\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <DisableSpecificWarnings>4005;4018;4091;4346;4838;4996;</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4005;4018;4091;4346;4474;4477;4838;4996;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

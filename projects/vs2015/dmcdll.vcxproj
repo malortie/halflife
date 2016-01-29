@@ -158,7 +158,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QUIVER;VOXEL;QUAKE2;VALVE_DLL;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\public;..\..\game_shared;..\..\dmc\dlls;..\..\engine;..\..\common;..\..\dmc\pm_shared;..\..\dmc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <DisableSpecificWarnings>4005;4018;4091;4346;4838;4996;</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4005;4018;4091;4346;4474;4477;4838;4996;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -185,7 +185,7 @@ copy "$(TargetDir)\$(TargetName).pdb" "..\..\..\game\mod_dmc\dlls\$(TargetName).
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;QUIVER;VOXEL;QUAKE2;VALVE_DLL;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\public;..\..\game_shared;..\..\dmc\dlls;..\..\engine;..\..\common;..\..\dmc\pm_shared;..\..\dmc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <DisableSpecificWarnings>4005;4018;4091;4346;4838;4996;</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4005;4018;4091;4346;4474;4477;4838;4996;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

@@ -170,7 +170,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CLIENT_DLL;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\..\ricochet;..\..\ricochet\dlls;..\..\ricochet\cl_dll;..\..\game_shared;..\..\engine;..\..\public;..\..\common;..\..\ricochet\pm_shared;..\..\utils\vgui\include;..\..\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <DisableSpecificWarnings>4005;4018;4091;4346;4838;4996;</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4005;4018;4091;4346;4474;4477;4838;4996;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -199,7 +199,7 @@ copy "$(TargetDir)\$(TargetName).pdb" "..\..\..\game\mod_ricochet\cl_dlls\$(Targ
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;CLIENT_DLL;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\..\ricochet;..\..\ricochet\dlls;..\..\ricochet\cl_dll;..\..\game_shared;..\..\engine;..\..\public;..\..\common;..\..\ricochet\pm_shared;..\..\utils\vgui\include;..\..\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <DisableSpecificWarnings>4005;4018;4091;4346;4838;4996;</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4005;4018;4091;4346;4474;4477;4838;4996;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

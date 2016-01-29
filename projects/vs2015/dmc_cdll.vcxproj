@@ -178,7 +178,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CLIENT_DLL;DMC_BUILD;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\..\public;..\..\dmc\dlls;..\..\engine;..\..\common;..\..\dmc\pm_shared;..\..\utils\vgui\include;..\..\dmc\cl_dll;..\..\game_shared;..\..\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <DisableSpecificWarnings>4005;4018;4091;4346;4838;4996;</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4005;4018;4091;4346;4474;4477;4838;4996;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -207,7 +207,7 @@ copy "$(TargetDir)\$(TargetName).pdb" "..\..\..\game\mod_dmc\cl_dlls\$(TargetNam
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;CLIENT_DLL;DMC_BUILD;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\..\public;..\..\dmc\dlls;..\..\engine;..\..\common;..\..\dmc\pm_shared;..\..\utils\vgui\include;..\..\dmc\cl_dll;..\..\game_shared;..\..\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <DisableSpecificWarnings>4005;4018;4091;4346;4838;4996;</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4005;4018;4091;4346;4474;4477;4838;4996;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
